@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2017 Cleavercoder
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+  <!--   <event name="checkout_submit_all_after">
+        <observer name="Cleavercoder_ProcessOrder" instance="Cleavercoder\Advanceshiping\Observer\ProcessCheck" />
+    </event> -->
+    <event name="checkout_onepage_controller_success_action">
+        <observer name="checkprocess" instance="Cleavercoder\Advanceshiping\Observer\ProcessCheck" />
+    </event>
+</config>

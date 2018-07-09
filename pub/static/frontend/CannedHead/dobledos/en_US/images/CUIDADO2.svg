@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8235 1258 44 44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="CUIDADO2" transform="translate(7960)">
+    <g id="Group_1034" data-name="Group 1034" transform="translate(-80.286 13.045)">
+      <g id="Group_1029" data-name="Group 1029" transform="translate(360.286 1249.955)">
+        <g id="Group_186" data-name="Group 186">
+          <path id="Path_77" data-name="Path 77" d="M33.567,0H.658A.658.658,0,0,0,0,.658V33.567a.658.658,0,0,0,.658.658H33.567a.658.658,0,0,0,.658-.658V.658A.658.658,0,0,0,33.567,0Zm-.673,1.316a15.8,15.8,0,0,1-31.563,0ZM1.316,32.909V31.593H5.265a.658.658,0,1,0,0-1.316H1.316V7.263a17.09,17.09,0,0,0,3.7,5.5,17.113,17.113,0,0,0,24.2,0,17.088,17.088,0,0,0,3.7-5.5V32.909H1.316Z"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_280" data-name="Rectangle 280" class="cls-1" width="44" height="44" transform="translate(275 1258)"/>
+  </g>
+</svg>

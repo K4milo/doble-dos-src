@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @copyright Copyright (c) 2017 a4logic Colombia (https://www.a4logic.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="A4logic\Payulatam\Logger\Handler\Exception">
+        <arguments>
+            <argument name="filesystem" xsi:type="object">Magento\Framework\Filesystem\Driver\File</argument>
+        </arguments>
+    </type>
+    <type name="A4logic\Payulatam\Logger\Logger">
+        <arguments>
+            <argument name="name" xsi:type="string">payulatam</argument>
+            <argument name="handlers" xsi:type="array">
+                <item name="exception" xsi:type="object">A4logic\Payulatam\Logger\Handler\Exception</item>
+                <item name="error" xsi:type="object">A4logic\Payulatam\Logger\Handler\Error</item>
+            </argument>
+        </arguments>
+    </type>
+    <virtualType name="A4logic\Payulatam\Model\Session\Storage" type="Magento\Framework\Session\Storage">
+        <arguments>
+            <argument name="namespace" xsi:type="string">payulatam</argument>
+        </arguments>
+    </virtualType>
+    <type name="A4logic\Payulatam\Model\Session">
+        <arguments>
+            <argument name="storage" xsi:type="object">A4logic\Payulatam\Model\Session\Storage</argument>
+        </arguments>
+    </type>
+
+
+</config>

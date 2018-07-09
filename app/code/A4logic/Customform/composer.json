@@ -1,0 +1,21 @@
+{
+    "name": "a4logic/module-customform",
+    "description": "",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "A4logic\\Customform\\": ""
+        }
+    }
+}

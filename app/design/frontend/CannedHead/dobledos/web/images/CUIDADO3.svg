@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8235 1323 44 44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="CUIDADO3" transform="translate(7960)">
+    <g id="Group_1035" data-name="Group 1035" transform="translate(-80.528 -9.469)">
+      <g id="Group_1032" data-name="Group 1032" transform="translate(358.528 1337.469)">
+        <g id="Group_198" data-name="Group 198" transform="translate(0)">
+          <path id="Path_83" data-name="Path 83" d="M38.191,62.308l-18.407-32.4a.736.736,0,0,0-1.28,0L1.763,59.375h0L.1,62.308a.736.736,0,0,0,.64,1.1H37.551a.736.736,0,0,0,.64-1.1ZM2,61.936l.837-1.473H5.89a.736.736,0,0,0,0-1.473H3.675L19.143,31.766l17.142,30.17Z" transform="translate(0 -29.539)"/>
+        </g>
+      </g>
+      <g id="Group_1033" data-name="Group 1033" transform="translate(371.729 1353.437)">
+        <g id="Group_196" data-name="Group 196">
+          <path id="Path_82" data-name="Path 82" d="M183.515,182.475l4.686-4.686a.736.736,0,0,0-1.041-1.041l-4.686,4.686-4.686-4.686a.736.736,0,0,0-1.041,1.041l4.686,4.686-4.686,4.686a.736.736,0,1,0,1.041,1.041l4.686-4.686,4.686,4.686a.736.736,0,0,0,1.041-1.041Z" transform="translate(-176.531 -176.532)"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_281" data-name="Rectangle 281" class="cls-1" width="44" height="44" transform="translate(275 1323)"/>
+  </g>
+</svg>

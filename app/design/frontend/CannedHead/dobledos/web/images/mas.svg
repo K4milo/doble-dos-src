@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="9416.719 560 55 55">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #00679f;
+        font-size: 22px;
+        font-family: OpenSans-Bold, Open Sans;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+      }
+    </style>
+  </defs>
+  <g id="mas" transform="translate(7960)">
+    <rect id="rectangle-5" class="cls-1" width="55" height="55" transform="translate(1456.719 560)"/>
+    <text id="_" data-name="+" class="cls-2" transform="translate(1477.719 597)"><tspan x="0" y="0">+</tspan></text>
+  </g>
+</svg>

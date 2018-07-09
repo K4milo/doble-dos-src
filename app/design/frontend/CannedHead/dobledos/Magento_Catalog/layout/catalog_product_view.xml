@@ -1,0 +1,32 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <move element="page.main.title" destination="product.info.main" before="-"/>        
+        <move element="product.info.stock.sku" destination="product.info.main" after="page.main.title"/> 
+        <move element="product.info.type" destination="product.info.main" after="product.info.stock.sku"/>       
+        <move element="product.info.description" destination="product.info.main" after="product.info.type" />
+        <referenceContainer name="content"> 
+            <block class="Magento\Cms\Block\Block" after="product.info.media">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">recomendacion_product</argument>
+                </arguments>
+            </block>
+        </referenceContainer> 
+        <referenceBlock name="product.info.review" remove="true" />
+        <move element="product.info.price" destination="product.info.options.wrapper.bottom" before="product.info.addtocart" />
+        <referenceContainer name="product.info.options.wrapper.bottom"> 
+            <block class="Magento\Cms\Block\Block" before="product.info.addtocart">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">product_tallas_link</argument>
+                </arguments>
+            </block>
+        </referenceContainer> 
+        <referenceContainer name="content"> 
+            <block class="Magento\Cms\Block\Block" after="-">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">product_tallas_modal</argument>
+                </arguments>
+            </block>
+        </referenceContainer> 
+    </body>
+</page>

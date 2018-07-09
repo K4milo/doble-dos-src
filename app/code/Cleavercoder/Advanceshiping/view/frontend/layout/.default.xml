@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<page xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+<body>
+   <referenceContainer name="before.body.end">
+    <block class="Magento\Framework\View\Element\Text" name="exampleScript">
+
+        <arguments>
+            <argument name="text" xsi:type="string"><![CDATA[<script src="https://digiwhizz.com/m4magento/pub/static/version1517380787/frontend/Magento/luma/en_US/Cleavercoder_Advanceshiping/js/main.js"/>]]></argument>
+          
+        </arguments>
+    </block>
+</referenceContainer>
+</body>
+</page>

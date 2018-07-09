@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Cleavercoder_Advanceshiping::parent" title="Advanceshiping" module="Cleavercoder_Advanceshiping" sortOrder="100" resource="Cleavercoder_Advanceshiping::parent"/>
+        <add id="Cleavercoder_Advanceshiping::index" title="Advanceshiping Index" module="Cleavercoder_Advanceshiping" sortOrder="10" action="advanceshiping/index" resource="Cleavercoder_Advanceshiping::index" parent="Cleavercoder_Advanceshiping::parent"/>
+		
+    </menu>
+</config>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="9292.719 560 55 55">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #00679f;
+        font-size: 22px;
+        font-family: OpenSans-Bold, Open Sans;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+      }
+    </style>
+  </defs>
+  <g id="menos" transform="translate(7960)">
+    <rect id="rectangle-5" class="cls-1" width="55" height="55" transform="translate(1332.719 560)"/>
+    <g id="Group_181" data-name="Group 181" transform="translate(1348.719 292)">
+      <text id="_-" data-name="-" class="cls-2" transform="translate(6 304)"><tspan x="0" y="0">-</tspan></text>
+      <text id="_--2" data-name="-" class="cls-2" transform="translate(11 304)"><tspan x="0" y="0">-</tspan></text>
+    </g>
+  </g>
+</svg>

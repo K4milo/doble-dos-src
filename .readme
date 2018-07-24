@@ -1,0 +1,15 @@
+Proceso de deploy para estilos:
+
+1 - Se debe editar el archivo less ubicado en app/design/frontend/CannedHead/dobledos/web/css/source/_extend.less
+
+2. Se ingresa a la consola del servidor  bin/magento deploy:mode:set production
+
+3. Se deben reasignar permisos a las carpetas var y pub
+
+chmod -R 777 var
+chmod -R 777 app
+
+4. Se deben limpiar cachés
+
+bin/magento cache:clean
+bin/magento cache:flush

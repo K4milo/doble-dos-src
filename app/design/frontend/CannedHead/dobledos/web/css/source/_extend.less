@@ -629,7 +629,7 @@ input[type="text"]:focus,  input[type="email"]:focus, textarea:focus, select:foc
     flex: 0 0 auto;
     background-color: transparent;
     margin-bottom: 40px;
-    .btn-transparente {
+    .btn-categora {
         position: absolute;
         left: 50%;
         transform: translate(-50%,-50%);
@@ -689,7 +689,7 @@ input[type="text"]:focus,  input[type="email"]:focus, textarea:focus, select:foc
     margin-top: 0%;
     margin-bottom: 10px;
     padding-left: 0%;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 700;
     text-align: center;
     letter-spacing: 2px;
@@ -697,6 +697,7 @@ input[type="text"]:focus,  input[type="email"]:focus, textarea:focus, select:foc
 
 .p-beneficios.p-beneficios2 {
     text-align: left;
+    font-size: 15px;
 }
 
 .p-beneficios {
@@ -708,10 +709,21 @@ input[type="text"]:focus,  input[type="email"]:focus, textarea:focus, select:foc
     text-align: center;
 }
 
-.beneficio-img img{
-    width: 100%;
-    height: auto;
-}
+.beneficio-img {
+    img{
+        width: 100%;
+        height: auto;
+    } 
+    .btn-categora {
+        &.btn-transparente {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0;
+            top: 50%;
+        }
+    } 
+} 
 
 .index-left{
     position:relative;
@@ -1892,6 +1904,7 @@ input[type="text"]:focus,  input[type="email"]:focus, textarea:focus, select:foc
             height: 55px!important;
             line-height: 38px;
             max-width: 271px;
+            margin: 46px auto;
         }
     }
 }

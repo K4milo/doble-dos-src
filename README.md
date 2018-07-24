@@ -5,7 +5,7 @@
 <li>Se ingresa a la consola del servidor  <pre>bin/magento deploy:mode:set production</pre></li>
 <li>Se deben reasignar permisos a las carpetas var y pub<br/>
 <pre>chmod -R 777 var
-chmod -R 777 app</pre>
+chmod -R 777 pub</pre>
 </li>
 <li>Se deben limpiar cachés
 <pre>bin/magento cache:clean

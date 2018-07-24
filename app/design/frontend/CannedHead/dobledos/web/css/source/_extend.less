@@ -370,12 +370,10 @@ input[type="text"]:focus,  input[type="email"]:focus, textarea:focus, select:foc
 }
 
 .btn-transparente, .btn-transparente:visited{
-    display: block;
     position: relative;
-    margin: 20% auto;
+    display: block;
     color:#fff;
     width: 100%;
-    height: 55px !important;
     border: 2px solid #fff;
     border-radius: 120px;
     background-color: transparent;
@@ -631,6 +629,13 @@ input[type="text"]:focus,  input[type="email"]:focus, textarea:focus, select:foc
     flex: 0 0 auto;
     background-color: transparent;
     margin-bottom: 40px;
+    .btn-transparente {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin: 0;
+        top: 50%;
+    }
 }
 
 .img-categoria {
@@ -1752,11 +1757,6 @@ input[type="text"]:focus,  input[type="email"]:focus, textarea:focus, select:foc
         width: auto;
     }
 
-    .categoria .btn-transparente{
-        width: 60%;
-        margin-left: 20%;
-    }
-
     .flex-caption {
         top: 20vh;
     }
@@ -1883,4 +1883,15 @@ input[type="text"]:focus,  input[type="email"]:focus, textarea:focus, select:foc
         height: 578px;
     }
 
+}
+
+/// Custom new styles
+#carousel-example-generic {
+    .item {
+        .btn-transparente {
+            height: 55px!important;
+            line-height: 38px;
+            max-width: 271px;
+        }
+    }
 }

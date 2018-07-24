@@ -31,6 +31,16 @@ module.exports = {
         ],
         dsl: 'less'
     },
+    canned_head: {
+        area: 'frontend',
+        name: 'CannedHead/dobledos',
+        locale: 'en_US',
+        files: [
+            'css/styles-m',
+            'css/styles-l'
+        ],
+        dsl: 'less'
+    },
     luma: {
         area: 'frontend',
         name: 'Magento/luma',
